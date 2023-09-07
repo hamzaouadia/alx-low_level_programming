@@ -1,9 +1,10 @@
 #include <stdio.h>
+
 /**
  * main - put
  *
- * Description : this program prints a string using the function put.
- * Return : Always 0.
+ * Description: this program prints a string using the function put.
+ * Return: Always 0.
  */
 
 int main(void)
