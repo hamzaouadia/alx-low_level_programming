@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main -put
+ * main - put
+ *
  * Description : this program prints a string using the function put.
  * Return : Always 0.
  */
