@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
@@ -15,7 +13,7 @@ int main(void)
 	int c;
 
 	c = 48;
-	while (c < 57)
+	while (c <= 57)
 	{
 		putchar(c);
 		c++;
