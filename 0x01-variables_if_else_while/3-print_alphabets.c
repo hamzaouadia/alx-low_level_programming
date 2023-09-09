@@ -6,7 +6,7 @@
  * main - alphabet
  *
  * Description:   a program that prints the
- *	alphabet in lowercase, and then in uppercase, 
+ *	alphabet in lowercase, and then in uppercase,
  *	followed by a new line.
  * Return: always 0.
  */
