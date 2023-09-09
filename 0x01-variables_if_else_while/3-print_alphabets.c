@@ -21,7 +21,7 @@ int main(void)
 		c++;
 	}
 	c = 'A';
-    while (c <= 'Z')
+	while (c <= 'Z')
 	{
 		printf("%c", c);
 		c++;
