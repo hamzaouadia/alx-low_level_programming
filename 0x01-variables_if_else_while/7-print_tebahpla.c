@@ -9,14 +9,12 @@
  */
 int main(void)
 {
-	char	*str;
-	int 	c;
+	int c;
 
-	str[8] = "ebahpla";
-	c = 7;
-	while (c <= 0)
+	c = 'z';
+	while (c >= 'a')
 	{
-		putchar(str[c]);
+		putchar(c);
 		c--;
 	}
 	putchar('\n');
