@@ -3,9 +3,9 @@
 /**
  * print_sign - positive or nigative
  *
- * @c: is the given character
+ * @n: is the given character
  * Description: function that prints the sign of a number.
- * Return: 1 if @c is greater than 0, 0 if @c is 0 and -1 if less.
+ * Return: 1 if @n is greater than 0, 0 if @n is 0 and -1 if less.
  */
 int	print_sign(int n)
 {
