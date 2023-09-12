@@ -2,8 +2,8 @@
 
 /**
  * add - read description
- *@a first integer.
- *@b secend integer.
+ *@a: first integer.
+ *@b: secend integer.
  * Description: function that adds two integers.
  * Return: int.
  */
