@@ -28,8 +28,3 @@ void	times_table(void)
 		n++;
 	}
 }
-int main(void)
-{
-    times_table();
-    return (0);
-}
