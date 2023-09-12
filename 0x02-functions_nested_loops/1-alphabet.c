@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * printf_alphabet - putchar
+ * print_alphabet - putchar
  *
  * Description: function that prints the alphabet, in lowercase.
  *	followed by a new line.
- * Return: nothing.
+ * Return: no return.
  */
 void	print_alphabet(void)
 {
