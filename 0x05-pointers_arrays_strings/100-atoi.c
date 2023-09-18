@@ -12,7 +12,7 @@
 int _atoi(char *s)
 {
 	int i;
-	int n;
+	unsigned int n;
 	int signe;
 
 	i = 0;
@@ -20,7 +20,7 @@ int _atoi(char *s)
 	signe = 1;
 	while (s[i])
 	{
-		if (s[i] == '-' || s[i == '+'])
+		if (s[i] == '-' || s[i] == '+')
 		{
 			if (s[i] == '-')
 				signe *= -1;
