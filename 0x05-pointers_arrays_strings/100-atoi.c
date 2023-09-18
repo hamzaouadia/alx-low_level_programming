@@ -18,7 +18,7 @@ int _atoi(char *s)
 	i = 0;
 	n = 0;
 	signe = 1;
-	while (s[i] == ' ' || (str[i] >= 9 && str[i] <= 13))
+	while (s[i] == ' ' || (s[i] >= 9 && s[i] <= 13))
 		i++;
 	if (s[i] == '-' || s[i == '+'])
 	{
