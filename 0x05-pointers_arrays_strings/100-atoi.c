@@ -26,9 +26,11 @@ int _atoi(char *s)
 				signe *= -1;
 		}
 		else if (s[i] >= '0' && s[i] <= '9')
-			n = n * 10 + (s[i] - '0');
-		else
+		{
+			while (s[i] >= '0' && s[i] <= '9')
+				n = n * 10 + (s[i++] - '0');
 			break ;
+		}
 		i++;
 	}
 	return (n * signe);
