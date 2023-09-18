@@ -4,7 +4,8 @@
  *	_puts - read description
  *
  *	@str: a pointer to a string.
- *	Description: function that prints a string, followed by a new line, to stdout.
+ *	Description: function that prints a string,
+ *		followed by a new line, to stdout.
  *	Return: void
 */
 
