@@ -24,5 +24,5 @@ void puts_half(char *str)
 		len = len / 2;
 	while (str[len])
 		putchar(str[len++]);
-	putchar('\n');	
+	putchar('\n');
 }
