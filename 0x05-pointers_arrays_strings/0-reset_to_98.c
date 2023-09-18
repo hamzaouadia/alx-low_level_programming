@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *	resete_to_98 - read description
+ *	reset_to_98 - read description
  *
  *	@n: a pointer to an integer.
  *	Description: function that takes a pointer to an int
