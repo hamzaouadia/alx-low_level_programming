@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *	swap_int - read description
+ *	_strlen - read description
  *
  *	@s: a pointer to a string.
  *	Description: function that returns the length of a string.
