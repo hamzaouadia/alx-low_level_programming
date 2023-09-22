@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- *	reverse_array - read description
+ *	string_toupper - read description
  *
- *	@a: array of intigers.
- *	@n: second string.
+ *	@str: a string.
  *
  *	Description:  function that changes all
  *		lowercase letters of a string to uppercase.
