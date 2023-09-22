@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _strcat - read description
+ *	_strcat - read description
  *
- * @dest: the destination.
- * @dsrc: the source.
+ *	@dest: the destination.
+ *	@dsrc: the source.
  * 
- * Description:  function that concatenates two strings.
- * Return: string.
+ *	Description:  function that concatenates two strings.
+ *	Return: string.
  */
 
 char *_strcat(char *dest, char *src)
@@ -17,11 +17,11 @@ char *_strcat(char *dest, char *src)
 
 	i = 0;
 	j = 0;
-	while (dest[i] != '0')
+	while (dest[i] != '\0')
 	{
 		i++;
 	}
-	while (src[j] != '0')
+	while (src[j] != '\0')
 	{
 		dest[i] = src[j];
 		j++;
