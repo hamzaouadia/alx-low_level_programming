@@ -5,7 +5,7 @@
  *
  *	@dest: the destination.
  *	@dsrc: the source.
- * 
+ *
  *	Description: function that concatenates two strings.
  *	Return: string.
  */
@@ -21,7 +21,6 @@ char *_strcat(char *dest, char *src)
 	{
 		i++;
 	}
-	
 	while (src[j] != '\0')
 	{
 		dest[i] = src[j];
