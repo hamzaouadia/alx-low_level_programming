@@ -11,7 +11,7 @@
 
 char *leet(char *str)
 {
-	char *a = "aeptl";
+	char *a = "aeotl";
 	char *b = "AEOTL";
 	char x[5] = {'4', '3', '0', '7', '1'};
 	char *ptr;
