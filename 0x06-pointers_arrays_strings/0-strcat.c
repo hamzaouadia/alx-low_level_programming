@@ -4,13 +4,13 @@
  *	_strcat - read description
  *
  *	@dest: the destination.
- *	@dsrc: the source.
+ *	@src: the source.
  *
  *	Description: function that concatenates two strings.
  *	Return: string.
  */
 
-char *_strcat(char *dest, char *src)
+char	*_strcat(char *dest, char *src)
 {
 	int i;
 	int j;
