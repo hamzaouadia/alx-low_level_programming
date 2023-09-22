@@ -21,9 +21,12 @@ char *leet(char *str)
 	while (*str)
 	{
 		i = 0;
-		while (*str == *(a + i) || *str == *(b + i))
+		while (i < 5)
 		{
-			*str = x[i];
+			if (*str == *(a + i) || *str == *(b + i))
+			{
+				*str = x[i];
+			}
 			i++;
 		}
 	}
