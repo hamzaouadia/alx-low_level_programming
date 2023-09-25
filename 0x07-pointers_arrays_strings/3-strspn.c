@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *	_strspn - function that locates a character in a string.
+ *	_strspn - function that gets the length of a prefix substring.
  *	@s: string.
  *	@accept: string.
  *	Return: string or NULL,
