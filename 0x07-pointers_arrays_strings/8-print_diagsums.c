@@ -22,6 +22,7 @@ void print_diagsums(int *a, int size)
 		sum1 += a[i];
 		j++;
 	}
+
 	j = 1;
 	while (j <= size)
 	{
