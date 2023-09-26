@@ -10,14 +10,14 @@
 
 void print_diagsums(int *a, int size)
 {
-	unsigned int sum1 = 0;
-	unsigned int sum2 = 0;
-	unsigned int i = 0;
-	unsigned int j = 0;
+	int sum1 = 0;
+	int sum2 = 0;
+	int i = 0;
+	int j = 0;
 
 	while (j < size)
 	{
-		i = (j * size) + j;
+		i = j * size + j;
 		sum1 += a[i];
 		j++;
 	}
@@ -25,7 +25,7 @@ void print_diagsums(int *a, int size)
 	j = 1;
 	while (j <= size)
 	{
-		i = (j * size) - j;
+		i = j * size - j;
 		sum2 += a[i];
 		j++; 
 	}
