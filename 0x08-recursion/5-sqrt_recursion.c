@@ -17,8 +17,7 @@ int _sqrt(int n, int r)
 }
 
 /**
- *	_sqrt_recursion - a function that returns the value
- *		of x raised to the power of y.
+ *	_sqrt_recursion - a function that returns the natural square root of a number.
  *	@n: number.
  *	Return: intiger.
 */
