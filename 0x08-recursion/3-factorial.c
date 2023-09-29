@@ -2,7 +2,7 @@
 
 /**
  *	factorial - function that returns the factorial of a given number.
- *	@s: string.
+ *	@n: number.
  *	Return: intiger.
 */
 
