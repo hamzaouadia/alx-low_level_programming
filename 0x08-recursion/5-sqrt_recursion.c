@@ -3,7 +3,7 @@
 /**
  *	_sqrt - a function that checks for square root of number.
  *	@n: number.
- *	@n: number.
+ *	@r: number.
  *	Return: intiger.
 */
 
