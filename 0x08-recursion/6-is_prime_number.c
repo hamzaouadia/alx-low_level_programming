@@ -13,7 +13,7 @@ int _prime(int n, int div)
 		return (1);
 	if (n % div == 0)
 		return (0);
-	return ( _prime(n, div + 1));
+	return (_prime(n, div + 1));
 }
 
 /**
