@@ -15,7 +15,7 @@ char *create_array(unsigned int size, char c)
 
 	if (!str || size == 0)
 		return (NULL);
-	while (str[i])
+	while (size > i)
 		str[i++] = c;
 	return (str);
 }
