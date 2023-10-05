@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- *	alloc_grid - function that returns a pointer to a 2 dimensional array of integers.
+ *	alloc_grid - function that returns a pointer to a
+ *		2 dimensional array of integers.
  *	@width: intiger.
  *	@height: intiger.
  *	Return: 2 dimensional array of integers.
@@ -25,7 +26,7 @@ int **alloc_grid(int width, int height)
 			while (i >= 0)
 				free(array[i--]);
 			free(array);
-			return (NULL);		
+			return (NULL);
 		}
 	}
 	i = -1;
