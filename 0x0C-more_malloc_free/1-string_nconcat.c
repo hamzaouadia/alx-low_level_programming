@@ -43,7 +43,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	save = str;
 	while (*s1)
 		*str++ = *s1++;
-	while (n--)
+	while (--n)
 		*str++ = *s2++;
 	return (save);
 }
