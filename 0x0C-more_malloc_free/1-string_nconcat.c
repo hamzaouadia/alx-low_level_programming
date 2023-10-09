@@ -30,8 +30,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *str;
 	int len;
-	int i;
-	int j;
+	int i = 0;
+	int j = 0;
 	int nb = n;
 
 	if (nb < 0)
