@@ -1,8 +1,9 @@
 #include "3-calc.h"
 
 /**
- *	get_op_func - function that find operation function.
- *	@s: string.
+ *	main - function that find operation function.
+ *	@ac: integer.
+ *	@av: array of strings.
  *	Return: function pointer.
 */
 
