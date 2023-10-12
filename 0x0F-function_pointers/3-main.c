@@ -19,7 +19,7 @@ int main(int ac, char **av)
 	}
 	i = atoi(av[1]);
 	j = atoi(av[3]);
-	op = get_op_function(av[2]);
+	op = get_op_func(av[2]);
 	if (!op)
 	{
 		printf("Error\n");
