@@ -30,7 +30,7 @@ int main(int ac, char **av)
 		exit(100);
 	}
 
-	r = op(a, b);
+	r = op(i, j);
 	printf("%d\n", r);
 	return (0);
 }
