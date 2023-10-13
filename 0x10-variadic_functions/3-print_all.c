@@ -60,7 +60,7 @@ void print_s(va_list args)
 void print_all(const char * const format, ...)
 {
 	va_list args;
-	unsigned int i, j = 0;
+	int i, j = 0;
 	char *sep = "";
 	data_t print_format[] = {
 								{'c', print_c},
@@ -70,7 +70,7 @@ void print_all(const char * const format, ...)
 								{'\0', NULL} };
 
 	va_start(args, format);
-	while (format && format[i])
+	while (format && format[j])
 	{
 		i = 0;
 		while (print_format[i].c)
@@ -81,9 +81,9 @@ void print_all(const char * const format, ...)
 				print_format[i].func(args);
 				sep = ", ";
 			}
-			j++;
+			i++;
 		}
-		i++;
+		j++;
 	}
 	printf("\n");
 	va_end(args);
