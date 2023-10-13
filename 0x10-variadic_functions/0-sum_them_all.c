@@ -3,7 +3,7 @@
 /**
  *	sum_them_all - function that returns the sum of all its parameters.
  *	@n: intiger.
- *	Return: void.
+ *	Return: int.
 */
 
 
@@ -21,6 +21,7 @@ int sum_them_all(const unsigned int n, ...)
 	{
 		x = va_arg(args, int);
 		s += x;
+		i++;
 	}
 	va_end(args);
 	return (s);
